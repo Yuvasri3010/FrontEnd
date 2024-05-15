@@ -1,0 +1,38 @@
+.custom-button {
+    background:  rgb(193, 239, 208);
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s; /* Add color transition */
+    display: inline-block;
+    width: auto;
+    white-space: nowrap;
+  }
+  
+  
+  .custom-button-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .custom-button-content span {
+    flex: 1;
+    text-align: center;
+    border-radius: 20px; /* make the border rounded */
+    padding: 8px;
+  }
+  
+  .selected {
+    background-color: rgb(21, 186, 150); /* Set background color for selected option */
+    color: white; /* Set text color for selected option */
+  }
+  
+  .unselected {
+    background-color: transparent; /* No background color for unselected option */
+    color: black; /* Set text color for unselected option */
+  }
+  

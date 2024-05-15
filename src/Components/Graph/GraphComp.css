@@ -1,0 +1,30 @@
+
+
+@media screen and (max-width:500px) {
+    .pickerStyle{
+        width: 100% !important;
+        min-width: none !important;
+        /* background-color: blue;
+        color: blue; */
+    }
+}
+@media screen and (min-width:500px) {
+    .dropDownStyle{
+        margin-left: 30px;
+        width: 30%;
+
+    }
+    /* .pickerStyle{
+        min-width: 620px !important;
+    } */
+}
+
+.pickerStyle{
+    display: flex;
+}
+
+.dropDownStyle{
+    min-width: 300px;
+    object-fit:fill;
+}
+
